@@ -11,16 +11,21 @@
       , "url": "git@github.com:qualiancy/carbon-proxyreq.git"
     }
   , "engines": {
-      "node": "*"
+      "node": ">= 0.10.0"
     }
   , "main": "./index"
   , "scripts": {
       "test": "mocha"
     }
   , "dependencies": {
+        "sherlock": "*"
+      , "tea-extend": "0.2.x"
     }
   , "devDependencies": {
         "chai": "*"
+      , "chai-http": "*"
       , "mocha": "*"
+      , "engine.io": "*"
+      , "engine.io-client": "*"
     }
 }
